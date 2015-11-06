@@ -19,7 +19,7 @@ npm install datatables.net-colreorder-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-colreorder-zf' )( $ );
+require( 'datatables.net-colreorder-zf' )( window, $ );
 ```
 
 ### bower
