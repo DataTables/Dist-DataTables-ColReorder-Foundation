@@ -5,7 +5,6 @@
     "files": [
         "css/colReorder.foundation.css"
     ],
-    "main": "./js/colReorder.foundation.js",
     "keywords": [
         "reorder",
         "DataTables",
