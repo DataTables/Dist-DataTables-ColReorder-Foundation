@@ -3,7 +3,8 @@
     "version": "1.4.1",
     "description": "ColReorder for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/colReorder.foundation.css",
     "keywords": [
@@ -28,5 +29,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-ColReorder-Foundation.git"
-    }
+    },
+    "main": "js/colReorder.foundation.js"
 }
