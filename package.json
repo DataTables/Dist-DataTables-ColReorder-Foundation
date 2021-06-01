@@ -3,6 +3,7 @@
     "description": "ColReorder for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/colReorder.foundation.js",
     "style": "css/colReorder.foundation.css",
+    "types": "./types/colReorder.foundation.d.ts",
     "version": "1.5.3",
     "files": [
         "css/**/*.css",

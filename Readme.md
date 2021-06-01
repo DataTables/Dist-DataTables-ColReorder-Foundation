@@ -17,9 +17,15 @@ For inclusion of this library using a standard `<script>` tag, rather than using
 npm install datatables.net-colreorder-zf
 ```
 
+ES3 Syntax
 ```
 var $ = require( 'jquery' );
 var dt = require( 'datatables.net-colreorder-zf' )( window, $ );
+```
+
+ES6 Syntax
+```
+import 'datatables.net-colreorder-zf'
 ```
 
 ### bower
