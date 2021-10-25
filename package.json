@@ -4,7 +4,7 @@
     "main": "js/colReorder.foundation.js",
     "style": "css/colReorder.foundation.css",
     "types": "./types/colReorder.foundation.d.ts",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,7 +12,7 @@
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "Foundation",
         "Datatables",
         "jQuery",
