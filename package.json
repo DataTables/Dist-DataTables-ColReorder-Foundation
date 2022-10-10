@@ -2,12 +2,14 @@
     "name": "datatables.net-colreorder-zf",
     "description": "ColReorder for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/colReorder.foundation.js",
+    "module": "js/colReorder.foundation.mjs",
     "style": "css/colReorder.foundation.css",
     "types": "./types/colReorder.foundation.d.ts",
     "version": "1.5.6",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
