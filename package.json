@@ -4,7 +4,7 @@
     "main": "js/colReorder.foundation.js",
     "module": "js/colReorder.foundation.mjs",
     "style": "css/colReorder.foundation.css",
-    "types": "./types/colReorder.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.5.6",
     "files": [
         "css/**/*.css",
