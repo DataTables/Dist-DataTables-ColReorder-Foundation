@@ -5,7 +5,7 @@
     "module": "js/colReorder.foundation.mjs",
     "style": "css/colReorder.foundation.css",
     "types": "./types/colReorder.foundation.d.ts",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "Foundation",
         "Datatables",
         "jQuery",
