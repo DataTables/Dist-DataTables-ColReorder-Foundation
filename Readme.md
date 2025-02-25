@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-zf';
 import 'datatables.net-colreorder-zf'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
