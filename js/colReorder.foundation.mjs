@@ -1,14 +1,11 @@
-/*! Foundation styling wrapper for ColReorder
- * © SpryMedia Ltd - datatables.net/license
+/*! ColReorder Foundation styling 3.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-zf';
 import ColReorder from 'datatables.net-colreorder';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
 
 
 export default DataTable;
+
