@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-colreorder-zf",
-    "description": "ColReorder allows the end user to modify the column order of a table through drop-and-drag of column headers. This is ColReorder for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "ColReorder for DataTables with styling for [Foundation](https://get.foundation/)",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-ColReorder-Foundation"
@@ -26,7 +26,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-colreorder": ">=1.5.6",
-        "datatables.net/datatables.net-zf": ">=1.12.1"
+        "datatables.net/datatables.net-colreorder": "3.0.1",
+        "datatables.net/datatables.net-zf": "^3"
     }
 }
