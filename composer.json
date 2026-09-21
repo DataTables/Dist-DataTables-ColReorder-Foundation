@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-colreorder-zf",
-    "description": "ColReorder for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "ColReorder for DataTables with styling for Foundation",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-ColReorder-Foundation"

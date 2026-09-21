@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-colreorder-zf",
     "description": "ColReorder for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/colReorder.foundation.js",
-    "module": "js/colReorder.foundation.mjs",
-    "style": "css/colReorder.foundation.css",
+    "main": "./js/colReorder.foundation.js",
+    "module": "./js/colReorder.foundation.mjs",
+    "style": "./css/colReorder.foundation.css",
     "types": "./types/colReorder.foundation.d.ts",
     "version": "3.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColReorder",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/colReorder.foundation.d.ts",
+            "import": "./js/colReorder.foundation.mjs",
+            "default": "./js/colReorder.foundation.mjs",
+            "require": "./js/colReorder.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/colReorder.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
