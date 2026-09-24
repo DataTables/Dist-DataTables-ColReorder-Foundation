@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/colReorder.foundation.d.ts",
+            "style": "./css/colReorder.foundation.css",
             "import": "./js/colReorder.foundation.mjs",
-            "default": "./js/colReorder.foundation.mjs",
-            "require": "./js/colReorder.foundation.js"
+            "require": "./js/colReorder.foundation.js",
+            "default": "./js/colReorder.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
